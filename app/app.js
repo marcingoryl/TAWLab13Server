@@ -6,6 +6,7 @@ import mongoose from 'mongoose';
 import morgan from 'morgan';
 import routes from './REST/routes';
 
+
 const app = express();
 app.use(express.static(__dirname + '/public'));
 

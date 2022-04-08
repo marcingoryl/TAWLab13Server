@@ -1,4 +1,5 @@
 import userManager from './user.manager';
+import postManager from './post.manager';
 
 
 function getter(manager, request) {
@@ -8,5 +9,6 @@ function getter(manager, request) {
 }
 
 export default {
+    getPostManager: getter(postManager),
     getUserManager: getter(userManager)
 };
